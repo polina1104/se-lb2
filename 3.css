@@ -1,0 +1,77 @@
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:0 auto;
+    flex-direction: column;
+}
+h1 {
+    font-weight: 900;
+    font-family: "Arial Black", monospace;
+    text-align: center; color: white;
+    margin: 0;
+}
+h2 {
+    margin: 0; font-size: 45px;
+    text-align: center; color: white;
+    font-family: "Arial Black", serif;
+}
+h5 {
+    margin: 0; font-weight: normal;
+    text-align: center; color: white;
+}
+form {
+    margin: 0;
+    padding: 10px;
+    border: 8px #4a4a4a solid;
+    background-color: #fb3249;
+    font-family: "Arial Rounded MT Bold", serif;
+}
+input{
+    margin: 0;
+    width: 553px;
+    height: 35px;
+    background-color: #cb2538;
+    border: none;
+    color: white;
+    font-size: small;
+}
+::placeholder {
+    color: white;
+    opacity: 60%;
+    font-size: small;
+    font-family: "Arial Rounded MT Bold", serif;
+}
+textarea {
+    margin: 0;
+    background-color: #cb2538;
+    width: 553px;
+    height: 110px;
+    border: none;
+    color: white;
+    font-size: small;
+}
+button {
+    background-color: white;
+    color: #fb3249;
+    width: 557px;
+    height: 60px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: #4a4a4a solid;
+    margin: 0;
+}
+select {
+    width: 557px;
+    height: 35px;
+    background-color: #cb2538;
+    border: none;
+    color: white;
+    font-size: small;
+}
+button:hover {
+    cursor:pointer;
+}
+

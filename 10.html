@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Таблица</title>
+    <style>
+        .square1 {
+            width: 30px;
+            height: 30px;
+            background: none;
+            border: red solid 1px;
+        }
+        .square2 {
+            width: 30px;
+            height: 30px;
+            background: none;
+            border: blue solid 1px;
+        }
+        .square3 {
+            width: 30px;
+            height: 30px;
+            background: none;
+            border: limegreen solid 1px;
+        }
+        .table1 {
+            border-spacing: 10px;
+        }
+        .task3 {
+            display: grid;
+            grid-template-columns: 30px 30px 30px;
+            grid-template-rows: 30px 30px 30px;
+            column-gap: -10px;
+            row-gap: -10px;
+            margin-top: 25px;
+            margin-left: 25px;
+        }
+        .square4 {
+            width: 30px;
+            height: 30px;
+            background: #ff8989;
+            grid-column: 1/3;
+            grid-row: 1/3;
+            transform: scale(2);
+        }
+        .square5 {
+            width: 30px;
+            height: 30px;
+            background: #7f8aec;
+            grid-column: 2/3;
+            grid-row: 2/3;
+            transform: scale(2);
+            z-index: 10;
+        }
+        .square6 {
+            width: 30px;
+            height: 30px;
+            background: #4cef9a;
+            grid-column: 3/3;
+            grid-row: 3/3;
+            transform: scale(2);
+        }
+    </style>
+</head>
+<body>
+<table class="table1">
+    <tr>
+        <td><div class="square1"></div></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><div class="square2"></div></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td><div class="square3"></div></td>
+    </tr>
+</table>
+<table  class="table1">
+    <tr>
+        <td><div class="square1"></div></td>
+        <td><div class="square2"></div></td>
+        <td><div class="square3"></div></td>
+    </tr>
+</table>
+    <div class="task3">
+        <div class="square4"></div>
+        <div class="square5"></div>
+        <div class="square6"></div>
+    </div>
+</body>
+</html>
