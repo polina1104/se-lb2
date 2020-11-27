@@ -1,0 +1,72 @@
+*:focus {
+    outline: none;
+}
+.form ul {
+    width:800px;
+    margin: 0;
+    padding: 0;
+}
+.form li {
+    padding:12px;
+    border-bottom: 1px solid lightgray;
+}
+.form h2 {
+    margin: 0;
+    display: inline;
+}
+.form label {
+    width: 150px;
+    margin-top: 5px;
+    float:left;
+    padding: 10px;
+}
+.form input {
+    height:20px;
+    width:200px;
+    padding:5px 5px;
+}
+.form textarea {
+    padding: 10px;
+    width: 250px;
+    height: 80px;
+}
+.form button {
+    margin-left: 170px;
+}
+.form input, .form textarea {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding-right: 20px;
+}
+.form input:focus, .form textarea:focus {
+    background: white;
+    border: 1px solid limegreen;
+    box-shadow: 0 0 5px lightgray;
+    padding-right: 50px;
+}
+.form input:required {
+    background: white url(star.png) no-repeat 100% center;
+}
+.form input:required:valid, .form textarea:valid {
+    background: white url(ok.png) no-repeat 100% center;
+    box-shadow: 0 0 5px #5cd053;
+    border-color: #28921f;
+}
+.form input:focus:invalid {
+    background: white url(!.png) no-repeat 100% center;
+    box-shadow: 0 0 5px #d45252;
+    border-color: #b03535
+}
+button.submit {
+    background: forestgreen;
+    border: 1px solid #509111;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    padding: 5px 20px;
+    text-align: center;
+}
+button.submit:hover {
+    opacity:.85;
+    cursor: pointer;
+}
