@@ -1,6 +1,3 @@
-*:focus {
-    outline: none;
-}
 .form ul {
     width:800px;
     margin: 0;
@@ -37,6 +34,9 @@
     border: 1px solid lightgray;
     border-radius: 5px;
     padding-right: 20px;
+}
+*:focus {
+    outline: none;
 }
 .form input:focus, .form textarea:focus {
     background: white;
